@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DEC2EF320E0EF9B004FF96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC2EF220E0EF9B004FF96F /* AppDelegate.swift */; };
+		1DEC2EF520E0EF9B004FF96F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC2EF420E0EF9B004FF96F /* ViewController.swift */; };
+		1DEC2EF820E0EF9B004FF96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DEC2EF620E0EF9B004FF96F /* Main.storyboard */; };
+		1DEC2EFB20E0EF9B004FF96F /* iMoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC2EF920E0EF9B004FF96F /* iMoney.xcdatamodeld */; };
+		1DEC2EFD20E0EF9B004FF96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEC2EFC20E0EF9B004FF96F /* Assets.xcassets */; };
+		1DEC2F0020E0EF9B004FF96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DEC2EFE20E0EF9B004FF96F /* LaunchScreen.storyboard */; };
+		1DEC2F0B20E0EF9B004FF96F /* iMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC2F0A20E0EF9B004FF96F /* iMoneyTests.swift */; };
+		1DEC2F1620E0EF9B004FF96F /* iMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC2F1520E0EF9B004FF96F /* iMoneyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DEC2F0720E0EF9B004FF96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DEC2EE720E0EF9B004FF96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DEC2EEE20E0EF9B004FF96F;
+			remoteInfo = iMoney;
+		};
+		1DEC2F1220E0EF9B004FF96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DEC2EE720E0EF9B004FF96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DEC2EEE20E0EF9B004FF96F;
+			remoteInfo = iMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DEC2EEF20E0EF9B004FF96F /* iMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEC2EF220E0EF9B004FF96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DEC2EF420E0EF9B004FF96F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DEC2EF720E0EF9B004FF96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DEC2EFA20E0EF9B004FF96F /* iMoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMoney.xcdatamodel; sourceTree = "<group>"; };
+		1DEC2EFC20E0EF9B004FF96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DEC2EFF20E0EF9B004FF96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DEC2F0120E0EF9B004FF96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEC2F0620E0EF9B004FF96F /* iMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEC2F0A20E0EF9B004FF96F /* iMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoneyTests.swift; sourceTree = "<group>"; };
+		1DEC2F0C20E0EF9B004FF96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEC2F1120E0EF9B004FF96F /* iMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEC2F1520E0EF9B004FF96F /* iMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoneyUITests.swift; sourceTree = "<group>"; };
+		1DEC2F1720E0EF9B004FF96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DEC2EEC20E0EF9B004FF96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEC2F0320E0EF9B004FF96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEC2F0E20E0EF9B004FF96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DEC2EE620E0EF9B004FF96F = {
+			isa = PBXGroup;
+			children = (
+				1DEC2EF120E0EF9B004FF96F /* iMoney */,
+				1DEC2F0920E0EF9B004FF96F /* iMoneyTests */,
+				1DEC2F1420E0EF9B004FF96F /* iMoneyUITests */,
+				1DEC2EF020E0EF9B004FF96F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DEC2EF020E0EF9B004FF96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DEC2EEF20E0EF9B004FF96F /* iMoney.app */,
+				1DEC2F0620E0EF9B004FF96F /* iMoneyTests.xctest */,
+				1DEC2F1120E0EF9B004FF96F /* iMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DEC2EF120E0EF9B004FF96F /* iMoney */ = {
+			isa = PBXGroup;
+			children = (
+				1DEC2EF220E0EF9B004FF96F /* AppDelegate.swift */,
+				1DEC2EF420E0EF9B004FF96F /* ViewController.swift */,
+				1DEC2EF620E0EF9B004FF96F /* Main.storyboard */,
+				1DEC2EFC20E0EF9B004FF96F /* Assets.xcassets */,
+				1DEC2EFE20E0EF9B004FF96F /* LaunchScreen.storyboard */,
+				1DEC2F0120E0EF9B004FF96F /* Info.plist */,
+				1DEC2EF920E0EF9B004FF96F /* iMoney.xcdatamodeld */,
+			);
+			path = iMoney;
+			sourceTree = "<group>";
+		};
+		1DEC2F0920E0EF9B004FF96F /* iMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DEC2F0A20E0EF9B004FF96F /* iMoneyTests.swift */,
+				1DEC2F0C20E0EF9B004FF96F /* Info.plist */,
+			);
+			path = iMoneyTests;
+			sourceTree = "<group>";
+		};
+		1DEC2F1420E0EF9B004FF96F /* iMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DEC2F1520E0EF9B004FF96F /* iMoneyUITests.swift */,
+				1DEC2F1720E0EF9B004FF96F /* Info.plist */,
+			);
+			path = iMoneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DEC2EEE20E0EF9B004FF96F /* iMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEC2F1A20E0EF9B004FF96F /* Build configuration list for PBXNativeTarget "iMoney" */;
+			buildPhases = (
+				1DEC2EEB20E0EF9B004FF96F /* Sources */,
+				1DEC2EEC20E0EF9B004FF96F /* Frameworks */,
+				1DEC2EED20E0EF9B004FF96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMoney;
+			productName = iMoney;
+			productReference = 1DEC2EEF20E0EF9B004FF96F /* iMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DEC2F0520E0EF9B004FF96F /* iMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEC2F1D20E0EF9B004FF96F /* Build configuration list for PBXNativeTarget "iMoneyTests" */;
+			buildPhases = (
+				1DEC2F0220E0EF9B004FF96F /* Sources */,
+				1DEC2F0320E0EF9B004FF96F /* Frameworks */,
+				1DEC2F0420E0EF9B004FF96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DEC2F0820E0EF9B004FF96F /* PBXTargetDependency */,
+			);
+			name = iMoneyTests;
+			productName = iMoneyTests;
+			productReference = 1DEC2F0620E0EF9B004FF96F /* iMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DEC2F1020E0EF9B004FF96F /* iMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEC2F2020E0EF9B004FF96F /* Build configuration list for PBXNativeTarget "iMoneyUITests" */;
+			buildPhases = (
+				1DEC2F0D20E0EF9B004FF96F /* Sources */,
+				1DEC2F0E20E0EF9B004FF96F /* Frameworks */,
+				1DEC2F0F20E0EF9B004FF96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DEC2F1320E0EF9B004FF96F /* PBXTargetDependency */,
+			);
+			name = iMoneyUITests;
+			productName = iMoneyUITests;
+			productReference = 1DEC2F1120E0EF9B004FF96F /* iMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DEC2EE720E0EF9B004FF96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Pavan Gopal";
+				TargetAttributes = {
+					1DEC2EEE20E0EF9B004FF96F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1DEC2F0520E0EF9B004FF96F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DEC2EEE20E0EF9B004FF96F;
+					};
+					1DEC2F1020E0EF9B004FF96F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DEC2EEE20E0EF9B004FF96F;
+					};
+				};
+			};
+			buildConfigurationList = 1DEC2EEA20E0EF9B004FF96F /* Build configuration list for PBXProject "iMoney" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DEC2EE620E0EF9B004FF96F;
+			productRefGroup = 1DEC2EF020E0EF9B004FF96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DEC2EEE20E0EF9B004FF96F /* iMoney */,
+				1DEC2F0520E0EF9B004FF96F /* iMoneyTests */,
+				1DEC2F1020E0EF9B004FF96F /* iMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DEC2EED20E0EF9B004FF96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEC2F0020E0EF9B004FF96F /* LaunchScreen.storyboard in Resources */,
+				1DEC2EFD20E0EF9B004FF96F /* Assets.xcassets in Resources */,
+				1DEC2EF820E0EF9B004FF96F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEC2F0420E0EF9B004FF96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEC2F0F20E0EF9B004FF96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DEC2EEB20E0EF9B004FF96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEC2EF520E0EF9B004FF96F /* ViewController.swift in Sources */,
+				1DEC2EF320E0EF9B004FF96F /* AppDelegate.swift in Sources */,
+				1DEC2EFB20E0EF9B004FF96F /* iMoney.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEC2F0220E0EF9B004FF96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEC2F0B20E0EF9B004FF96F /* iMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEC2F0D20E0EF9B004FF96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEC2F1620E0EF9B004FF96F /* iMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DEC2F0820E0EF9B004FF96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DEC2EEE20E0EF9B004FF96F /* iMoney */;
+			targetProxy = 1DEC2F0720E0EF9B004FF96F /* PBXContainerItemProxy */;
+		};
+		1DEC2F1320E0EF9B004FF96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DEC2EEE20E0EF9B004FF96F /* iMoney */;
+			targetProxy = 1DEC2F1220E0EF9B004FF96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DEC2EF620E0EF9B004FF96F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DEC2EF720E0EF9B004FF96F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DEC2EFE20E0EF9B004FF96F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DEC2EFF20E0EF9B004FF96F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEC2F1820E0EF9B004FF96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DEC2F1920E0EF9B004FF96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DEC2F1B20E0EF9B004FF96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6F4AGE4B2;
+				INFOPLIST_FILE = iMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thequint.iMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DEC2F1C20E0EF9B004FF96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6F4AGE4B2;
+				INFOPLIST_FILE = iMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thequint.iMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DEC2F1E20E0EF9B004FF96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6F4AGE4B2;
+				INFOPLIST_FILE = iMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thequint.iMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMoney.app/iMoney";
+			};
+			name = Debug;
+		};
+		1DEC2F1F20E0EF9B004FF96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6F4AGE4B2;
+				INFOPLIST_FILE = iMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thequint.iMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMoney.app/iMoney";
+			};
+			name = Release;
+		};
+		1DEC2F2120E0EF9B004FF96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6F4AGE4B2;
+				INFOPLIST_FILE = iMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thequint.iMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMoney;
+			};
+			name = Debug;
+		};
+		1DEC2F2220E0EF9B004FF96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6F4AGE4B2;
+				INFOPLIST_FILE = iMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thequint.iMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEC2EEA20E0EF9B004FF96F /* Build configuration list for PBXProject "iMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEC2F1820E0EF9B004FF96F /* Debug */,
+				1DEC2F1920E0EF9B004FF96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEC2F1A20E0EF9B004FF96F /* Build configuration list for PBXNativeTarget "iMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEC2F1B20E0EF9B004FF96F /* Debug */,
+				1DEC2F1C20E0EF9B004FF96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEC2F1D20E0EF9B004FF96F /* Build configuration list for PBXNativeTarget "iMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEC2F1E20E0EF9B004FF96F /* Debug */,
+				1DEC2F1F20E0EF9B004FF96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEC2F2020E0EF9B004FF96F /* Build configuration list for PBXNativeTarget "iMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEC2F2120E0EF9B004FF96F /* Debug */,
+				1DEC2F2220E0EF9B004FF96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DEC2EF920E0EF9B004FF96F /* iMoney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DEC2EFA20E0EF9B004FF96F /* iMoney.xcdatamodel */,
+			);
+			currentVersion = 1DEC2EFA20E0EF9B004FF96F /* iMoney.xcdatamodel */;
+			path = iMoney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DEC2EE720E0EF9B004FF96F /* Project object */;
+}
